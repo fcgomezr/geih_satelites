@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="grouByColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="grouByColumns">
+            <config key="InclList">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="P3095S1"/>
+            </config>
+            <config key="ExclList">
+                <entry key="array-size" type="xint" value="17"/>
+                <entry key="0" type="xstring" value="DIRECTORIO"/>
+                <entry key="1" type="xstring" value="SECUENCIA_P"/>
+                <entry key="2" type="xstring" value="ORDEN"/>
+                <entry key="3" type="xstring" value="FEX_C18"/>
+                <entry key="4" type="xstring" value="P3084S2"/>
+                <entry key="5" type="xstring" value="P3092"/>
+                <entry key="6" type="xstring" value="P3092S1"/>
+                <entry key="7" type="xstring" value="P3092S2"/>
+                <entry key="8" type="xstring" value="P3095"/>
+                <entry key="9" type="xstring" value="P3095S2"/>
+                <entry key="10" type="xstring" value="P3098"/>
+                <entry key="11" type="xstring" value="P3098S1"/>
+                <entry key="12" type="xstring" value="P3098S2"/>
+                <entry key="13" type="xstring" value="P3099"/>
+                <entry key="14" type="xstring" value="P3099S1"/>
+                <entry key="15" type="xstring" value="P3099S2"/>
+                <entry key="16" type="xstring" value="PERIODO,DIRECTORIO,SECUENCIA_P,ORDEN,HOGAR,P3076S1,P3076S1A1,P3076S1A2,P3076S2,P3076S2A1,P3076S2A2,P3076S3,P3076S3A1,P3076S3A2,P3077S1,P3077S1A1,P3077S1A2,P3077S2,P3077S2A1,P3077S2A2,P3077S3,P3077S3A1,P3077S3A2,P3078S1,P3078S1A1,P3078S1A2,P3078S2,P3078S2A1,P3078S2A2,P3078S3,P3078S3A1,P3078S3A2,P3079S1,P3079S1A1,P3079S1A2,P3079S2,P3079S2A1,P3079S2A2,P3079S3,P3079S3A1,P3079S3A2,P3081S1,P3081S1A1,P3081S1A2,P3081S2,P3081S2A1,P3081S2A2,P3081S3,P3081S3A1,P3081S3A2,P3082S1,P3082S1A1,P3082S1A2,P3082S2,P3082S2A1,P3082S2A2,P3082S3,P3082S3A1,P3082S3A2,P3083,P3083S1,P3084,P3085,P3086,P3086S1,P3087,P3087S1,P3088,P3089,P3089S1,P3089S2,P3089S3,P3091S1,P3091S2,P3092S1,P3092S2,P3093S1,P3093S2,P3094,P3094S1,P3094S2,P3094S3,P3095,P3095S1,P3095S2,P3095S3,P3096,P3096S1,P3096S2,P3096S3,P3097,P3097S1,P3097S2,P3098,P3098S1,P3098S2,P3099,P3099S1,P3099S2,P3101,P3101S1,P3101S2,CLASE,AREA,MES,DPTO,P3091,P3092,P3093,FEX_C18,PER,REGIS"/>
+            </config>
+            <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+        </config>
+        <config key="maxNoneNumericalVals_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+        <config key="enableHilite_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableHilite" type="xboolean" value="false"/>
+        <config key="sortInMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="sortInMemory" type="xboolean" value="false"/>
+        <config key="aggregationColumn">
+            <config key="columnNames">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="DIRECTORIO"/>
+            </config>
+            <config key="columnTypes">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <config key="aggregationMethod">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Count"/>
+            </config>
+            <config key="inclMissingVals">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="aggregationOperatorSettings"/>
+        <config key="patternAggregators"/>
+        <config key="dataTypeAggregators"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
+        <config key="retainOrder_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="retainOrder" type="xboolean" value="false"/>
+        <config key="inMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="inMemory" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
+        <config key="nodeVersion_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeVersion" type="xint" value="1"/>
+        <entry key="typeMatch" type="xbyte" value="0"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
+    <entry key="node-name" type="xstring" value="GroupBy"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.2.v202303231026"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="GroupBy"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

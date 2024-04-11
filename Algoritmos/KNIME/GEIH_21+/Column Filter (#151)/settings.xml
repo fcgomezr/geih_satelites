@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="16"/>
+                <entry key="0" type="xstring" value="DIRECTORIO"/>
+                <entry key="1" type="xstring" value="SECUENCIA_P"/>
+                <entry key="2" type="xstring" value="ORDEN"/>
+                <entry key="3" type="xstring" value="P3092S1"/>
+                <entry key="4" type="xstring" value="P3092S2"/>
+                <entry key="5" type="xstring" value="P3095"/>
+                <entry key="6" type="xstring" value="P3095S1"/>
+                <entry key="7" type="xstring" value="P3095S2"/>
+                <entry key="8" type="xstring" value="P3098"/>
+                <entry key="9" type="xstring" value="P3098S1"/>
+                <entry key="10" type="xstring" value="P3098S2"/>
+                <entry key="11" type="xstring" value="P3099"/>
+                <entry key="12" type="xstring" value="P3099S1"/>
+                <entry key="13" type="xstring" value="P3099S2"/>
+                <entry key="14" type="xstring" value="P3092"/>
+                <entry key="15" type="xstring" value="FEX_C18"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="97"/>
+                <entry key="0" type="xstring" value="PERIODO"/>
+                <entry key="1" type="xstring" value="HOGAR"/>
+                <entry key="2" type="xstring" value="P3076S1"/>
+                <entry key="3" type="xstring" value="P3076S1A1"/>
+                <entry key="4" type="xstring" value="P3076S1A2"/>
+                <entry key="5" type="xstring" value="P3076S2"/>
+                <entry key="6" type="xstring" value="P3076S2A1"/>
+                <entry key="7" type="xstring" value="P3076S2A2"/>
+                <entry key="8" type="xstring" value="P3076S3"/>
+                <entry key="9" type="xstring" value="P3076S3A1"/>
+                <entry key="10" type="xstring" value="P3076S3A2"/>
+                <entry key="11" type="xstring" value="P3077S1"/>
+                <entry key="12" type="xstring" value="P3077S1A1"/>
+                <entry key="13" type="xstring" value="P3077S1A2"/>
+                <entry key="14" type="xstring" value="P3077S2"/>
+                <entry key="15" type="xstring" value="P3077S2A1"/>
+                <entry key="16" type="xstring" value="P3077S2A2"/>
+                <entry key="17" type="xstring" value="P3077S3"/>
+                <entry key="18" type="xstring" value="P3077S3A1"/>
+                <entry key="19" type="xstring" value="P3077S3A2"/>
+                <entry key="20" type="xstring" value="P3078S1"/>
+                <entry key="21" type="xstring" value="P3078S1A1"/>
+                <entry key="22" type="xstring" value="P3078S1A2"/>
+                <entry key="23" type="xstring" value="P3078S2"/>
+                <entry key="24" type="xstring" value="P3078S2A1"/>
+                <entry key="25" type="xstring" value="P3078S2A2"/>
+                <entry key="26" type="xstring" value="P3078S3"/>
+                <entry key="27" type="xstring" value="P3078S3A1"/>
+                <entry key="28" type="xstring" value="P3078S3A2"/>
+                <entry key="29" type="xstring" value="P3079S1"/>
+                <entry key="30" type="xstring" value="P3079S1A1"/>
+                <entry key="31" type="xstring" value="P3079S1A2"/>
+                <entry key="32" type="xstring" value="P3079S2"/>
+                <entry key="33" type="xstring" value="P3079S2A1"/>
+                <entry key="34" type="xstring" value="P3079S2A2"/>
+                <entry key="35" type="xstring" value="P3079S3"/>
+                <entry key="36" type="xstring" value="P3079S3A1"/>
+                <entry key="37" type="xstring" value="P3079S3A2"/>
+                <entry key="38" type="xstring" value="P3081S1"/>
+                <entry key="39" type="xstring" value="P3081S1A1"/>
+                <entry key="40" type="xstring" value="P3081S1A2"/>
+                <entry key="41" type="xstring" value="P3081S2"/>
+                <entry key="42" type="xstring" value="P3081S2A1"/>
+                <entry key="43" type="xstring" value="P3081S2A2"/>
+                <entry key="44" type="xstring" value="P3081S3"/>
+                <entry key="45" type="xstring" value="P3081S3A1"/>
+                <entry key="46" type="xstring" value="P3081S3A2"/>
+                <entry key="47" type="xstring" value="P3082S1"/>
+                <entry key="48" type="xstring" value="P3082S1A1"/>
+                <entry key="49" type="xstring" value="P3082S1A2"/>
+                <entry key="50" type="xstring" value="P3082S2"/>
+                <entry key="51" type="xstring" value="P3082S2A1"/>
+                <entry key="52" type="xstring" value="P3082S2A2"/>
+                <entry key="53" type="xstring" value="P3082S3"/>
+                <entry key="54" type="xstring" value="P3082S3A1"/>
+                <entry key="55" type="xstring" value="P3082S3A2"/>
+                <entry key="56" type="xstring" value="P3083"/>
+                <entry key="57" type="xstring" value="P3083S1"/>
+                <entry key="58" type="xstring" value="P3084"/>
+                <entry key="59" type="xstring" value="P3085"/>
+                <entry key="60" type="xstring" value="P3086"/>
+                <entry key="61" type="xstring" value="P3086S1"/>
+                <entry key="62" type="xstring" value="P3087"/>
+                <entry key="63" type="xstring" value="P3087S1"/>
+                <entry key="64" type="xstring" value="P3088"/>
+                <entry key="65" type="xstring" value="P3089"/>
+                <entry key="66" type="xstring" value="P3089S1"/>
+                <entry key="67" type="xstring" value="P3089S2"/>
+                <entry key="68" type="xstring" value="P3089S3"/>
+                <entry key="69" type="xstring" value="P3091S1"/>
+                <entry key="70" type="xstring" value="P3091S2"/>
+                <entry key="71" type="xstring" value="P3093S1"/>
+                <entry key="72" type="xstring" value="P3093S2"/>
+                <entry key="73" type="xstring" value="P3094"/>
+                <entry key="74" type="xstring" value="P3094S1"/>
+                <entry key="75" type="xstring" value="P3094S2"/>
+                <entry key="76" type="xstring" value="P3094S3"/>
+                <entry key="77" type="xstring" value="P3095S3"/>
+                <entry key="78" type="xstring" value="P3096"/>
+                <entry key="79" type="xstring" value="P3096S1"/>
+                <entry key="80" type="xstring" value="P3096S2"/>
+                <entry key="81" type="xstring" value="P3096S3"/>
+                <entry key="82" type="xstring" value="P3097"/>
+                <entry key="83" type="xstring" value="P3097S1"/>
+                <entry key="84" type="xstring" value="P3097S2"/>
+                <entry key="85" type="xstring" value="P3101"/>
+                <entry key="86" type="xstring" value="P3101S1"/>
+                <entry key="87" type="xstring" value="P3101S2"/>
+                <entry key="88" type="xstring" value="CLASE"/>
+                <entry key="89" type="xstring" value="AREA"/>
+                <entry key="90" type="xstring" value="MES"/>
+                <entry key="91" type="xstring" value="DPTO"/>
+                <entry key="92" type="xstring" value="P3091"/>
+                <entry key="93" type="xstring" value="P3093"/>
+                <entry key="94" type="xstring" value="PER"/>
+                <entry key="95" type="xstring" value="REGIS"/>
+                <entry key="96" type="xstring" value="Iteration"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.2.v202303231026"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
